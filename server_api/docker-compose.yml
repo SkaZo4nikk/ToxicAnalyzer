@@ -1,0 +1,7 @@
+version: '3'
+services:
+  service_name:
+    image: python:3.10.7
+    volumes:
+      - ./torchapp/toxic_model/logs/training.log:./torchapp/toxic_model/logs/training.log
+      

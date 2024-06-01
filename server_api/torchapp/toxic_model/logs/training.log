@@ -1,0 +1,59 @@
+2024-05-27 17:32:12,338 - INFO - Epoch 1/5
+2024-05-27 17:32:45,460 - INFO - Train loss: 0.3256819846863237, Train accuracy: 0.8633012175559998
+2024-05-27 17:32:47,310 - INFO - Val loss: 0.26288971369983166, Val accuracy: 0.9111728072166443
+2024-05-27 17:32:47,429 - INFO - New best model saved with accuracy: 0.9112
+2024-05-27 17:32:47,429 - INFO - Epoch 2/5
+2024-05-27 17:33:20,446 - INFO - Train loss: 0.25280769886261684, Train accuracy: 0.9158643484115601
+2024-05-27 17:33:22,296 - INFO - Val loss: 0.2883417508744979, Val accuracy: 0.9125607013702393
+2024-05-27 17:33:22,431 - INFO - New best model saved with accuracy: 0.9126
+2024-05-27 17:33:22,431 - INFO - Epoch 3/5
+2024-05-27 17:33:55,496 - INFO - Train loss: 0.23172986175583665, Train accuracy: 0.9286147952079773
+2024-05-27 17:33:57,367 - INFO - Val loss: 0.304618131368066, Val accuracy: 0.9167245030403137
+2024-05-27 17:33:57,506 - INFO - New best model saved with accuracy: 0.9167
+2024-05-27 17:33:57,506 - INFO - Epoch 4/5
+2024-05-27 17:34:30,474 - INFO - Train loss: 0.21988988184122576, Train accuracy: 0.9341660141944885
+2024-05-27 17:34:32,381 - INFO - Val loss: 0.31308959480387916, Val accuracy: 0.9188063740730286
+2024-05-27 17:34:32,522 - INFO - New best model saved with accuracy: 0.9188
+2024-05-27 17:34:32,522 - INFO - Epoch 5/5
+2024-05-27 17:35:05,536 - INFO - Train loss: 0.20666208684711812, Train accuracy: 0.9400641918182373
+2024-05-27 17:35:07,393 - INFO - Val loss: 0.31917970382430955, Val accuracy: 0.9201943278312683
+2024-05-27 17:35:07,530 - INFO - New best model saved with accuracy: 0.9202
+2024-05-27 17:35:09,141 - INFO -               precision    recall  f1-score   support
+
+    positive       0.96      0.93      0.94       983
+    negative       0.86      0.92      0.89       459
+
+    accuracy                           0.92      1442
+   macro avg       0.91      0.92      0.91      1442
+weighted avg       0.93      0.92      0.93      1442
+
+2024-05-27 17:35:14,247 - INFO - Epoch 1/5
+2024-05-27 17:35:48,720 - INFO - Train loss: 0.3256819846863237, Train accuracy: 0.8633012175559998
+2024-05-27 17:35:50,584 - INFO - Val loss: 0.26288971369983166, Val accuracy: 0.9111728072166443
+2024-05-27 17:35:50,886 - INFO - New best model saved with accuracy: 0.9112
+2024-05-27 17:35:50,886 - INFO - Epoch 2/5
+2024-05-27 17:36:24,409 - INFO - Train loss: 0.25280769886261684, Train accuracy: 0.9158643484115601
+2024-05-27 17:36:26,328 - INFO - Val loss: 0.2883417508744979, Val accuracy: 0.9125607013702393
+2024-05-27 17:36:26,477 - INFO - New best model saved with accuracy: 0.9126
+2024-05-27 17:36:26,477 - INFO - Epoch 3/5
+2024-05-27 17:36:59,984 - INFO - Train loss: 0.23172986175583665, Train accuracy: 0.9286147952079773
+2024-05-27 17:37:01,847 - INFO - Val loss: 0.304618131368066, Val accuracy: 0.9167245030403137
+2024-05-27 17:37:02,002 - INFO - New best model saved with accuracy: 0.9167
+2024-05-27 17:37:02,002 - INFO - Epoch 4/5
+2024-05-27 17:37:35,555 - INFO - Train loss: 0.21988988184122576, Train accuracy: 0.9341660141944885
+2024-05-27 17:37:37,409 - INFO - Val loss: 0.31308959480387916, Val accuracy: 0.9188063740730286
+2024-05-27 17:37:37,554 - INFO - New best model saved with accuracy: 0.9188
+2024-05-27 17:37:37,555 - INFO - Epoch 5/5
+2024-05-27 17:38:10,510 - INFO - Train loss: 0.20666208684711812, Train accuracy: 0.9400641918182373
+2024-05-27 17:38:12,292 - INFO - Val loss: 0.31917970382430955, Val accuracy: 0.9201943278312683
+2024-05-27 17:38:12,451 - INFO - New best model saved with accuracy: 0.9202
+2024-05-27 17:38:14,072 - INFO -               precision    recall  f1-score   support
+
+    positive       0.96      0.93      0.94       983
+    negative       0.86      0.92      0.89       459
+
+    accuracy                           0.92      1442
+   macro avg       0.91      0.92      0.91      1442
+weighted avg       0.93      0.92      0.93      1442
+
+2024-05-27 17:38:14,228 - INFO - Watching for file changes with StatReloader
