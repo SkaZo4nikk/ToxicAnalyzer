@@ -14,6 +14,7 @@ RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 RUN mkdir -p torchapp/toxic_model/trained_models
+RUN wget https://huggingface.co/Izlaster/ToxicMetr/resolve/main/server_api/torchapp/model/best_model_state.bin\?download\=true -O best_model_state.bin torchapp/toxic_model/trained_models
 
 EXPOSE 8000
 
