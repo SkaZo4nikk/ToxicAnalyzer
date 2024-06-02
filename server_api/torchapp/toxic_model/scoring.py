@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 from torchapp.toxic_model.predict import get_predictions
 
-log_file = "training.log"
+log_file = "torchapp/toxic_model/logs/training.log"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
