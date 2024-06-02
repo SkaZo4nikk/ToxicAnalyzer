@@ -40,15 +40,11 @@ jobs:
         working-directory: server_api
         run: |
           docker build -t toxic-metr-app .
-
-      - name: Run Docker Compose
-        working-directory: server_api
-        run: |
-          docker-compose up --build -d
+          docker run --gpus all -it -p 8000:8000 toxic-metr-app
 
       - name: Check service health
         run: |
-          sleep 10
+          sleep 120
           curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a test text."}' http://localhost:8000/api/classify/ || exit 1 
 
   cleanup:
