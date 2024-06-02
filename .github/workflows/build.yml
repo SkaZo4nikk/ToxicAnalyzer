@@ -32,25 +32,27 @@ jobs:
           python-version: '3.10.7'
 
       - name: Install dependencies
+        working-directory: ./server_api
         run: |  
           python -m pip install --upgrade pip
-          pip install -r server_api/requirements.txt
+          pip install -r requirements.txt
 
       - name: Run tests
+        working-directory: ./server_api
         run: |
-          python server_api/manage.py test
+          python manage.py test
 
       - name: Build Docker image
-        working-directory: server_api
+        working-directory: ./server_api
         run: |
           docker build -t toxic-metr-app .
           docker run -d -p 8000:8000 toxic-metr-app
 
-      # - name: Check service health
-      #   run: |
-      #     sleep 10
-      #     docker ps
-      #     curl -X POST -H "Content-Type: application/json" -d '{"text": "Test"}' http://localhost:8000/api/classify/ || exit 1 
+      - name: Check service health
+        run: |
+          sleep 10
+          docker ps
+          curl -X POST -H "Content-Type: application/json" -d '{"text": "Test"}' http://localhost:8000/api/classify/ || exit 1 
 
   cleanup:
     runs-on: ubuntu-20.04  
