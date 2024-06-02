@@ -230,3 +230,4 @@ weighted avg       0.92      0.92      0.92      1442
 2024-06-02 13:59:50,565 - WARNING - Method Not Allowed: /api/classify/
 2024-06-02 14:00:24,244 - WARNING - Method Not Allowed: /api/classify/
 2024-06-02 14:00:39,198 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 14:25:00,731 - WARNING - Method Not Allowed: /api/classify/
