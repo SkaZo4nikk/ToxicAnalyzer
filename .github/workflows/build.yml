@@ -49,7 +49,7 @@ jobs:
       - name: Check service health
         run: |
           sleep 10
-          curl -f http://0.0.0.0:8000 || exit 1
+          curl curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a test text."}' http://0.0.0.0:8000/classify/ || exit 1 
 
   cleanup:
     runs-on: ubuntu-20.04  
