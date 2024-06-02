@@ -40,7 +40,7 @@ jobs:
         working-directory: server_api
         run: |
           docker build -t toxic-metr-app .
-          docker run -d --gpus all -p 8000:8000 toxic-metr-app
+          docker run -d -p 8000:8000 toxic-metr-app
 
       - name: Check service health
         run: |
