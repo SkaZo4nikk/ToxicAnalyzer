@@ -31,7 +31,6 @@ jobs:
       - name: Install dependencies
         run: |  
           python -m pip install --upgrade pip
-          ls server_api -lah
           pip install -r server_api/requirements.txt
 
       - name: Build Docker image
