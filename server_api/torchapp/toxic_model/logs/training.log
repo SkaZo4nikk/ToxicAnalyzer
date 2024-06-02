@@ -57,3 +57,176 @@ weighted avg       0.93      0.92      0.93      1442
 weighted avg       0.93      0.92      0.93      1442
 
 2024-05-27 17:38:14,228 - INFO - Watching for file changes with StatReloader
+2024-06-02 14:43:58,456 - INFO - Epoch 1/5
+2024-06-02 14:44:38,626 - INFO - Epoch 1/1
+2024-06-02 14:45:55,591 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 14:45:59,133 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 14:45:59,283 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 14:46:01,511 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 11:46:01,957 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 14:47:20,343 - INFO - Epoch 1/1
+2024-06-02 14:48:33,210 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 14:48:35,866 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 14:48:36,020 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 14:48:38,145 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 14:50:30,294 - INFO - Epoch 1/1
+2024-06-02 14:51:42,836 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 14:51:45,714 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 14:51:45,872 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 14:51:48,083 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 11:51:54,970 - INFO - Epoch 1/1
+2024-06-02 11:53:08,979 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 11:53:11,650 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 11:53:11,812 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 11:53:13,966 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 11:53:14,181 - INFO - Watching for file changes with StatReloader
+2024-06-02 11:53:23,900 - WARNING - Not Found: /
+2024-06-02 11:53:24,176 - WARNING - Not Found: /favicon.ico
+2024-06-02 11:53:28,021 - WARNING - Not Found: /predict
+2024-06-02 11:53:30,638 - WARNING - Not Found: /predict
+2024-06-02 11:53:31,142 - WARNING - Not Found: /predict
+2024-06-02 11:53:31,564 - WARNING - Not Found: /predict
+2024-06-02 11:53:40,035 - WARNING - Not Found: /predict
+2024-06-02 11:54:07,373 - WARNING - Not Found: /classify
+2024-06-02 11:54:51,214 - WARNING - Not Found: /classify
+2024-06-02 11:55:54,903 - WARNING - Not Found: /
+2024-06-02 15:00:51,566 - INFO - Epoch 1/1
+2024-06-02 15:02:04,634 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:02:07,395 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:02:07,552 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:02:10,347 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 15:03:08,099 - INFO - Epoch 1/1
+2024-06-02 15:04:25,842 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:04:29,118 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:04:29,433 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:04:34,663 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 15:06:11,009 - INFO - Epoch 1/1
+2024-06-02 15:07:26,397 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:07:29,219 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:07:29,402 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:07:31,956 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 15:09:17,443 - INFO - Epoch 1/1
+2024-06-02 15:10:31,961 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:10:34,620 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:10:34,786 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:10:37,003 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 12:10:37,399 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 15:14:18,577 - INFO - Epoch 1/1
+2024-06-02 15:15:35,568 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:15:38,239 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:15:38,412 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:15:40,585 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 12:15:40,990 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 15:21:19,479 - INFO - Epoch 1/1
+2024-06-02 15:22:38,628 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:22:42,046 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:22:42,224 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:22:44,653 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 12:22:45,548 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 15:39:56,372 - INFO - Epoch 1/1
+2024-06-02 15:41:15,057 - INFO - Train loss: 0.32975759568537655, Train accuracy: 0.8586174249649048
+2024-06-02 15:41:17,981 - INFO - Val loss: 0.2435436650534361, Val accuracy: 0.904927134513855
+2024-06-02 15:41:18,194 - INFO - New best model saved with accuracy: 0.9049
+2024-06-02 15:41:21,364 - INFO -               precision    recall  f1-score   support
+
+    positive       0.95      0.93      0.94       983
+    negative       0.85      0.90      0.88       459
+
+    accuracy                           0.92      1442
+   macro avg       0.90      0.91      0.91      1442
+weighted avg       0.92      0.92      0.92      1442
+
+2024-06-02 13:02:51,381 - INFO - Watching for file changes with StatReloader
+2024-06-02 13:05:13,076 - INFO - /home/laptopml/test/ToxicAnalyzer/server_api/torchapp/views.py changed, reloading.
+2024-06-02 13:05:17,267 - INFO - Watching for file changes with StatReloader
+2024-06-02 13:05:42,243 - INFO - Watching for file changes with StatReloader
+2024-06-02 13:09:35,671 - WARNING - Not Found: /classify
+2024-06-02 13:49:06,834 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 13:51:09,741 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 13:53:41,945 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 13:54:04,567 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 13:58:21,828 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 13:59:36,300 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 13:59:50,565 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 14:00:24,244 - WARNING - Method Not Allowed: /api/classify/
+2024-06-02 14:00:39,198 - WARNING - Method Not Allowed: /api/classify/

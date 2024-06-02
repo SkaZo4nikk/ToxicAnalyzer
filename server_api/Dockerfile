@@ -16,6 +16,8 @@ RUN pip install --upgrade pip \
 RUN mkdir -p torchapp/toxic_model/trained_models
 RUN wget "https://huggingface.co/Izlaster/ToxicMetr/resolve/main/server_api/torchapp/model/best_model_state.bin?download=true" -O torchapp/toxic_model/trained_models/best_model_state.bin
 
+RUN touch -p torchapp/toxic_model/logs/training.log
+
 EXPOSE 8000
 
 CMD ["python", "manage.py", "runserver"]
