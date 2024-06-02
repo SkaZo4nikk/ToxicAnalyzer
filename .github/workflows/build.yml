@@ -32,6 +32,10 @@ jobs:
         run: |  
           python -m pip install --upgrade pip
           pwd
+          cd ..
+          ls
+          cd ..
+          ls
           pip install -r .github/workflows/server_api/requirements.txt
 
       - name: Build Docker image
