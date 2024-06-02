@@ -1,4 +1,4 @@
-FROM mirror.gcr.io/library/python:3.10.7
+FROM dockerhub.timeweb.cloud/python:3.10.7
 
 SHELL [ "/bin/bash", "-c" ]
 
