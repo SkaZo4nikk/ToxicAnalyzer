@@ -9,7 +9,7 @@ RUN chmod 600 /root/.kaggle/kaggle.json
 
 RUN export KAGGLE_USERNAME=$(jq -r .username /root/.kaggle/kaggle.json) \
     && export KAGGLE_KEY=$(jq -r .key /root/.kaggle/kaggle.json)
-    
+
 RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
